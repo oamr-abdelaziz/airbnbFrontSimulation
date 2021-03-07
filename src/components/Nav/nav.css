@@ -1,0 +1,38 @@
+
+.testToggle {
+  color: black;
+}
+.navigationBar {
+  background-color: white;
+  -webkit-box-shadow: 2px 5px 10px -5px rgb(97, 97, 97);
+  -moz-box-shadow: 2px 5px 10px -5px rgb(97, 97, 97);
+  box-shadow: 2px 5px 10px -5px rgb(97, 97, 97);
+}
+.searchContainer {
+  width: fit-content;
+}
+.searchContainer:focus-within {
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(230, 230, 230, 1);
+  -moz-box-shadow: 2px 5px 5px 0px rgba(230, 230, 230, 1);
+  box-shadow: 2px 5px 5px 0px rgba(230, 230, 230, 1);
+}
+.searchIcon {
+  color: white;
+}
+.searchInput {
+  margin: 0 10px;
+  border: none;
+  margin: 0;
+  margin-right: 20px;
+}
+ input[type=text] {
+  /* width: 50%; */
+  border: none;
+  transition: 150ms;
+}
+ input[type=text]:focus {
+  /* border: none; */
+  /* width: 50%; */
+  box-shadow: none;
+}
+

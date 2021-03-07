@@ -1,0 +1,67 @@
+.button {
+display: inline-block;
+border: 1px solid rgb(34, 34, 34);
+border-radius: 5px;
+padding: 8px 20px;
+margin: 0;
+text-decoration: none;
+background: rgb(255, 255, 255);
+color: rgb(34, 34, 34);
+cursor: pointer;
+text-align: center;
+transition: background 250ms ease-in-out, 
+            transform 150ms ease;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.button:hover {
+    background: rgb(241, 241, 241);
+    border: 1px solid rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
+}
+
+.button:focus {
+    background: rgb(241, 241, 241);
+    color: rgb(34, 34, 34);
+    border: 3px solid rgb(34, 34, 34);
+    box-shadow: none;
+}
+
+.button:active {
+    transform: scale(0.95);
+    background: rgb(241, 241, 241);
+    color: rgb(34, 34, 34);
+}
+
+.modalStyle  {
+    color: rgb(34, 34, 34);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.modalStyle h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.modalStyle h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0;
+    
+}
+
+.modalStyle p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#essentails p {
+    margin-bottom: 0;
+}
+#essentails span {
+    color: rgb(113, 113, 113);
+    font-size: 13px;
+}

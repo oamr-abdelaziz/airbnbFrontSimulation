@@ -1,0 +1,18 @@
+.carousel-item > img {
+    height: 160px;
+    width: 240px;
+}
+
+@media screen and (max-width: 770px){
+    .carousel-item > img {
+        height: 460px;
+    }
+    
+}
+
+@media screen and (max-width: 570px){
+    .carousel-item > img {
+        height: 360px;
+    }
+    
+}

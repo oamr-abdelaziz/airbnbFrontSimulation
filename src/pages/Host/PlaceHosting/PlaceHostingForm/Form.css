@@ -1,0 +1,29 @@
+.formPage{
+    /* background-image: url("../../imgs/1.jpg"); */
+    background-image: url("../../imgs/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#formPage{
+    min-height: 657px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.formCard{
+    width: 60%;
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 10px;
+}
+
+.price ::before{
+    content: "$";
+}

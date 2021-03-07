@@ -1,0 +1,49 @@
+.imgsContainer {
+    margin: auto;
+    max-width: 95%;
+    padding: 0 80px;
+    
+}
+.firstMainCol {
+    max-width: 564px;
+    padding: 0;
+}
+.secMainCol {
+    max-width: 564px;
+    padding: 0;
+}
+.smallImgItem {
+    /* max-width: 267px; */
+    padding: 0;
+    /* padding-left: 10px; */
+}
+#leftImg {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#rightTopImg {
+    border-top-right-radius: 10px;
+}
+#rightBottomImg {
+    border-bottom-right-radius: 10px;
+}
+
+.imgCarousel {
+    max-width: 80%;
+    margin-bottom: 100px;
+    display: none;
+}
+
+.carouselItem {
+    max-height: 400px;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .imgsContainer {
+        display: none;
+    }
+    .imgCarousel {
+        display: block;
+    }
+}

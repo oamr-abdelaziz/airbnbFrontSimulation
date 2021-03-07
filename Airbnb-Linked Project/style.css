@@ -1,0 +1,34 @@
+.navbar.navbar-expand-sm.bg-white.navbar-white.d-flex.justify-content-around.fixed-top {
+	border-bottom: thin solid #7E7474;
+	background-color: #E3E3E3;
+}
+#nav_ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+#nav_ul .nav-item {
+	margin-left: 30px;
+
+
+
+
+
+}
+
+
+.navbar-brand {
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+.container-fluid .container {
+	border: 1px solid #B6BCD5;
+	border-radius: 25px;
+}
+.footer.col-12.col-md-3 .list-unstyled li {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}

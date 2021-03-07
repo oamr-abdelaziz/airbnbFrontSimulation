@@ -1,0 +1,40 @@
+.titleMain{
+    margin-top: 120px;
+    padding: 20px 0;
+}
+.titleMain h1 {
+    color: rgb(34, 34, 34);
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 0;
+}
+.icon {
+    color: rgb(255, 56, 92) !important;
+    display: inline;
+    font-size: 12px;
+}
+.rating {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.number {
+    color: rgb(113, 113, 113);
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.dotSeparator {
+    color: rgb(113, 113, 113);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.address {
+    color: rgb(113, 113, 113);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-left: 5px;
+}

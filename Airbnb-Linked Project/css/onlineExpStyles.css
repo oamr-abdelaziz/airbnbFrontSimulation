@@ -1,0 +1,402 @@
+/* ---- global ---- */
+a.button {
+display: inline-block;
+border: none;
+border-radius: 5px;
+padding: 8px 20px;
+margin: 0;
+text-decoration: none;
+background: #FF5A5F;
+color: #ffffff;
+font-family: sans-serif;
+font-size: 1rem;
+cursor: pointer;
+text-align: center;
+transition: background 250ms ease-in-out, 
+            transform 150ms ease;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+a.button:hover {
+    background: #f74e54;
+}
+
+a.button:focus {
+    outline: 1px solid rgb(72, 72, 72);
+    outline-offset: 4px;
+}
+
+a.button:active {
+    transform: scale(0.99);
+    outline: 1px solid rgb(72, 72, 72);
+    outline-offset: 4px;
+}
+
+
+
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(72, 72, 72);
+}
+
+/* ----- navbar ----- */
+nav img {
+    width: 29px;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+/* ----- first section ----- */
+#get-started{
+    text-align: center;
+    margin-top: 130px;
+}
+
+#get-started span {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#get-started h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+
+#get-started .textContainer {
+    width: 60%; 
+    margin: auto;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+#get-started .button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 27px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+/* ---- second section grid-like img */
+#first-img img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#first-img .textContainer {
+    width: 59%; 
+    margin: auto;
+    margin-top: 110px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* ----- section03 grid */
+#section03, #section11 {
+    margin: 170px auto;
+    padding-left: 5%;
+}
+
+
+#section03 img, #section11 img {
+    width: 50px;
+    padding: 20px 0;
+}
+
+#section03 h3, #section11 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+
+#section03 p, #section11 p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 1.9;
+    width: 88%;
+}
+
+/* ----- section04 textblock ------ */
+.textBlock {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.textBlock h2 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.textBlock div {
+    font-size: 24px;
+    width: 60%;
+    line-height: 1.3;
+    padding-top: 30px;
+}
+
+/* ----- section05 ----- */
+#section05 {
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+#section05 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+
+#section05 .sec05-content {
+    padding-left: 55px;
+}
+
+#section05 p {
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(72, 72, 72);
+    padding-top: 20px;
+    width: 74%;
+}
+
+#section05 b {
+    font-weight: 600;
+}
+
+/* section06 */
+#section06 .button, #section09 .button {
+    align-content: center;
+    font-weight: 600;
+    margin: 50px auto;
+    background-color: transparent;
+    padding: 10px 18px;
+    color: rgb(72, 72, 72);
+    border: 2px solid rgb(72, 72, 72);
+}
+
+/* section07 */
+/* inherets from section04 textblock */
+
+/* section08 */
+#section08 {
+    margin: 100px auto;
+}
+
+#section08 .sec08Card {
+    border-style: none;
+}
+
+#section08 .sec08Card img {
+    width: 100%;
+}
+
+#section08 .sec08Card h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#section08 .sec08Card p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+
+#section08 .sec08Card a {
+    margin-top: 0;
+}
+
+/* section09 */
+/* inherits section06 */
+
+/* section11 */
+/* inhereits from section03 */
+
+/* section12 */
+#section12 {
+    margin-bottom: 200px;
+}
+
+#section12 div {
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.3;
+    padding-top: 30px;
+    text-align: left;
+}
+
+#section12 .sec12Content {
+    margin-left: 5%;
+}
+
+/* last section */
+#lastSec {
+    height: 100vh;
+    width: 99.8vw;
+    background: url('../media/backgroundImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#lastSec h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    width: 50%;
+    margin: 40px auto;
+}
+
+#lastSec div {
+    text-align: center; 
+}
+
+#lastSec div a.button {
+    background: transparent;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+/* ---------- Responsive --------- */
+@media screen and (max-width: 1128px){
+
+    #get-started h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    #get-started .textContainer {
+        width: 100%; 
+        margin: 0;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    /* second section img */
+    #first-img .textContainer {
+        width: 66%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    /* section04 */
+    .textBlock div {
+        font-size: 18px;
+        width: 70%;
+        line-height: 1.5;
+        padding-top: 60px;
+        font-weight: 400;
+    }
+
+    /* section05 */
+    #section05 {
+        margin-left: 0;
+    }
+
+    #section05 .sec05-content {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+
+    #section05 p {
+        width: 90%;
+    }
+
+    /* Last section */
+    #lastSec h1 {
+        font-size: 40px;
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 744px){
+
+    #get-started{
+        text-align: left;
+        margin-left: 0;
+
+    }
+
+    #get-started .button {
+        margin: 0;
+    }
+
+    /* second section img */
+    #first-img .textContainer {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+    }   
+    
+    /* (Text block) section04 */
+    .textBlock {
+        text-align: left;
+    }
+
+    .textBlock h2 {
+        font-size: 24px;
+        font-weight: 600;
+
+    }
+
+    .textBlock div {
+        width: 100%;
+        font-weight: 300;
+        line-height: 1.5;
+        padding-top: 40px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    /* section05 */
+    #section05 {
+        margin-left: 0;
+    }
+
+    #section05 .sec05-content {
+        padding-left: 0;
+        margin-left: 15px;
+    }
+
+    #section05 p {
+        width: 100%;
+    }
+
+    /* section08 */
+    #section08 .sec08Card h3 {
+        font-size: 20px;
+    }
+
+    /* section12 */
+    #section12 div {
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    #section12 .sec12Content {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+     #section12 .sec12Content a {
+        margin-top: 10px;
+    }
+
+    #lastSec h1 {
+        width: 100%;
+    }
+
+    #lastSec {
+        width: 104vw;
+    }
+}

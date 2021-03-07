@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="media/airbnb-logo.png">
+    <title>Rent out your house, apartment or room on Airbnb</title>
+    <link rel="stylesheet" href="host_place.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="jQuery.js"></script>
+</head>
+
+<body>
+    <header class="col-12">
+        <nav class="navbar navbar-expand-md  navbar-light">
+            <a class="navbar-brand" href="Home.html"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                    style="display:block;height:36px;width:36px;fill:#210034" aria-label="Homelink" role="img"
+                    focusable="false">
+                    <path
+                        d="m16.5 1c2.008085 0 3.4632027.96283388 4.7513779 3.26849971l.5326477 1.02546647c1.9537557 3.83047524 6.1137915 12.53917462 7.0991575 14.83626342l.1462392.3528118c.666849 1.5911597.9089331 2.4721983.9588638 3.3963643l.0112155.4148361c.0004984.0616776.0004984.134022.0004984.2274973 0 4.0620396-2.8764539 6.4782609-6.3571429 6.4782609-2.2243943 0-4.5558538-1.2577296-6.7085498-3.3861099l-.2574471-.25956-.1718602-.1793301h-.011l-.1755759.1847983c-2.0445114 2.1008154-4.2677042 3.4208856-6.41432039 3.6152501l-.27953818.0189396-.26742267.006012c-3.48068898 0-6.35714286-2.4162213-6.35714286-6.4782609l.00454695-.468363c.0267153-.9288567.22966104-1.7682114.83130912-3.2441913l.21547951-.5238937c.96518694-2.298134 6.08242852-12.98926921 7.70666272-16.03396302 1.278799-2.2884942 2.7339167-3.25132808 4.7420017-3.25132808zm0 2c-1.2386682 0-2.0526703.53861541-2.9867173 2.20976115l-.5236826 1.00849692c-1.9253014 3.77609709-6.05944731 12.43033983-7.03072523 14.69152843l-.34466233.836533c-.42741793 1.0708881-.57302322 1.6541875-.60525859 2.2390305l-.00853405.3300843c-.0004199.0548485-.0004199.1205531-.0004199.2063048 0 2.8727431 1.91133076 4.4782609 4.35714286 4.4782609 1.77322614 0 3.86957714-1.2360441 5.83116174-3.3543075-2.2950884-2.9375996-3.8549713-6.449937-3.8549713-8.9088504 0-2.9133611 1.9323483-5.3862954 5.1774304-5.4209947 3.2235547.0346993 5.155903 2.5076336 5.155903 5.4209947 0 2.4547692-1.5546293 5.9594145-3.8549699 8.9062679 1.9648698 2.1227832 4.0593243 3.35689 5.8311603 3.35689 2.4458121 0 4.3571429-1.6055178 4.3571429-4.4782609l-.0037202-.4108638c-.0193133-.671496-.1709867-1.2953427-.7139685-2.6202181l-.2488229-.5997251c-1.064789-2.4778253-5.9928845-12.7679933-7.5373949-15.66399932-.9434232-1.68831737-1.7574253-2.22693278-2.9960935-2.22693278zm.0107637 10.3157316c-2.0107259.021644-3.1774304 1.514741-3.1774304 3.4211105 0 1.796356 1.1790231 4.5797683 2.9544726 7.0428415l.2101941.2873164.174104-.2339736c1.7298707-2.3850145 2.8981786-5.0656085 2.9888755-6.8746747l.0056872-.2215096c0-1.9063695-1.1667045-3.3994665-3.155903-3.4211105z">
+                    </path>
+                </svg>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Setup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Financials</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="formDiv" class="col-12">
+        <img src="imgs/1.jpg">
+        <div id="form" class="col-8 shadow bg-white">
+            <div class="leftSide col-6">
+                <h1>
+                    Earn up to <span>$328</span> a month hosting in Cairo
+                </h1>
+                <a href="#">How we estimate your earnings potential</a>
+            </div>
+            <div class="rightSide col-6">
+                <p>
+                    Tell us more about your place and we'll update your estimate
+                </p>
+                <form>
+                    <div id="inputs">
+                        <input id="address" type="text" name="address" placeholder="Address">
+                        <select>
+                            <option>
+                                <h1>Entire place</h1>
+                                <!-- <p>
+                                                                    Guests have the whole place to themselves—there's a private entrance and no shared
+                                                                    spaces. A bedroom, bathroom, and
+                                                                    kitchen are usually included.
+                                                                </p> -->
+                            </option>
+                            <option>
+                                <h1>Private room</h1>
+                                <!-- <p>
+                                                                    Guests have their own private room for sleeping. Other areas could be shared.
+                                                                </p> -->
+                            </option>
+                            <option>
+                                <h1>Shared room</h1>
+                                <!-- <p>
+                                                                    Guests sleep in a bedroom or a common area that could be shared with others.
+                                                                </p> -->
+                            </option>
+                        </select>
+                        <select id="lastSelect">
+                            <option>
+                                0 guests
+                            </option>
+                            <option>
+                                1 guests
+                            </option>
+                            <option>
+                                2 guests
+                            </option>
+                            <option>
+                                3 guests
+                            </option>
+                            <option>
+                                4 guests
+                            </option>
+                            <option>
+                                5 guests
+                            </option>
+                            <option>
+                                6 guests
+                            </option>
+                            <option>
+                                7 guests
+                            </option>
+                            <option>
+                                8 guests
+                            </option>
+                            <option>
+                                9 guests
+                            </option>
+                            <option>
+                                10 guests
+                            </option>
+                            <option>
+                                11 guests
+                            </option>
+                            <option>
+                                12 guests
+                            </option>
+                            <option>
+                                13 guests
+                            </option>
+                            <option>
+                                14 guests
+                            </option>
+                            <option>
+                                15 guests
+                            </option>
+                        </select>
+                    </div>
+                    <a href="#" id="moreinfo">Let us know any special spaces guests can access</a>
+                    <input id="submit" type="submit" value="Start your listing">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fArticleContainer d-lg-flex">
+        <div class="col-md-5 fArticle">
+            <h4>
+                Why host on Airbnb?
+            </h4>
+            <p>
+                No matter what kind of home or room you have to share, Airbnb makes it simple and secure to host
+                travelers. You’re in
+                full control of your availability, prices, house rules, and how you interact with guests.
+            </p>
+        </div>
+        <div class="col-md-5 fArticle">
+            <h4>
+                We have your back
+            </h4>
+            <p>
+                To keep you, your home, and your belongings safe, we cover every booking with $1M USD in property damage
+                protection and
+                another $1M USD in insurance against accidents.
+            </p>
+        </div>
+    </div>
+    <div class="container host">
+        <hr>
+        <center>
+            <h1>
+                Hosting in 3 steps
+            </h1>
+        </center>
+        <div class="sArticleContainer d-lg-flex">
+            <div class="col-md-3 sArticle">
+                <svg viewBox="0 0 32 32" role="presentation" aria-hidden="true" focusable="false"
+                    style="height:48px;width:48px;display:block;fill:currentColor">
+                    <path
+                        d="m16 31c-8.28 0-15-6.72-15-15s6.72-15 15-15 15 6.72 15 15-6.72 15-15 15m0-31c-8.84 0-16 7.16-16 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16m5.71 12.29c.39.39.39 1.02 0 1.41l-6 6c-.39.39-1.02.39-1.41 0l-3-3c-.39-.39-.39-1.02 0-1.41s1.02-.39 1.41 0l2.29 2.29 5.29-5.29c.39-.39 1.02-.39 1.41 0">
+                    </path>
+                </svg>
+                <h5>
+                    List your space for free
+                </h5>
+                <p>
+                    Share any space without sign-up charges, from a shared living room to a second home and everything
+                    in-between.
+                </p>
+            </div>
+            <div class="col-md-3 sArticle">
+                <svg viewBox="0 0 32 32" role="presentation" aria-hidden="true" focusable="false"
+                    style="height:48px;width:48px;display:block;fill:currentColor">
+                    <path
+                        d="m16 31c-8.28 0-15-6.72-15-15s6.72-15 15-15 15 6.72 15 15-6.72 15-15 15m0-31c-8.84 0-16 7.16-16 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16m5.71 12.29c.39.39.39 1.02 0 1.41l-6 6c-.39.39-1.02.39-1.41 0l-3-3c-.39-.39-.39-1.02 0-1.41s1.02-.39 1.41 0l2.29 2.29 5.29-5.29c.39-.39 1.02-.39 1.41 0">
+                    </path>
+                </svg>
+                <h5>
+                    Decide how you want to host
+                </h5>
+                <p>
+                    Choose your own schedule, prices, and requirements for guests. We’re there to help along the way.
+                </p>
+            </div>
+            <div class="col-md-3 sArticle">
+                <svg viewBox="0 0 32 32" role="presentation" aria-hidden="true" focusable="false"
+                    style="height:48px;width:48px;display:block;fill:currentColor">
+                    <path
+                        d="m16 31c-8.28 0-15-6.72-15-15s6.72-15 15-15 15 6.72 15 15-6.72 15-15 15m0-31c-8.84 0-16 7.16-16 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16m5.71 12.29c.39.39.39 1.02 0 1.41l-6 6c-.39.39-1.02.39-1.41 0l-3-3c-.39-.39-.39-1.02 0-1.41s1.02-.39 1.41 0l2.29 2.29 5.29-5.29c.39-.39 1.02-.39 1.41 0">
+                    </path>
+                </svg>
+                <h5>
+                    Welcome your first guest
+                </h5>
+                <p>
+                    Once your listing is live, qualified guests can reach out. You can message them with any questions
+                    before their
+                    stay.
+                </p>
+                <a href="#">Learn how to start hosting</a>
+            </div>
+        </div>
+    </div>
+    <div class="container tArticleContainer d-lg-flex">
+        <div class="col-md-5">
+            <div aria-hidden="true" class="comma">“</div>
+            <h2>
+                The Host Guarantee helped me decide to join Airbnb because I have it to fall back on if there's damage
+                or problems.
+            </h2>
+            <p>
+                Dennis hosts in London for the flexibility it provides
+
+            </p>
+            <a href="#">Learn how they host</a>
+        </div>
+        <div class="col-md-6">
+            <img src="imgs/2.jpg">
+        </div>
+    </div>
+    <div class="container host">
+        <hr>
+        <center>
+            <h1>
+                We’ve got you covered
+            </h1>
+        </center>
+        <div class="sArticleContainer d-lg-flex">
+            <div class="col-md-5 sArticle">
+                <p>
+                    We know it’s a priority to trust the people staying in your home. Airbnb allows you to set strict
+                    requirements for who
+                    can book and to get to know guests before their stay.
+                    <br> <br>
+                    If something does come up, though, we have your back. With our Host Guarantee covering property
+                    damage and our Host
+                    Protection Insurance for liability, you’re supported as a host throughout.
+                </p>
+                <a href="#">Learn how Airbnb protects hosts</a>
+            </div>
+            <div class="col-md-6 sArticle">
+                <ul>
+                    <li class="trueList">
+                        Ability to require government ID before booking
+                    </li>
+                    <li class="trueList">
+                        House Rules guests must agree to
+                    </li>
+                    <li class="trueList">
+                        Chance to read reviews from past trips
+                    </li>
+                    <li class="trueList">
+                        Free $1M protection for property damage
+                    </li>
+                    <li class="trueList">
+                        Free $1M liability insurance
+                    </li>
+                    <li class="trueList">
+                        24/7 global customer support
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="imgDiv" class="col-11">
+            <img src="imgs/3.jpg">
+        </div>
+    </div>
+    <div class="container host">
+        <hr>
+        <center>
+            <h1>
+                Payments made simple
+            </h1>
+        </center>
+        <div class="sArticleContainer d-lg-flex">
+            <div class="col-md-4 sArticle">
+                <h5>
+                    Charge what you want
+                </h5>
+                <p>
+                    You always get to pick your price. Need help? We have tools to help you match demand in your area.
+                </p>
+            </div>
+            <div class="col-md-4 sArticle">
+                <h5>
+                    Pay low fees
+                </h5>
+                <p>
+                    There’s no cost to sign up. Airbnb generally charges hosts a flat 3% per reservation, among the
+                    lowest fees in the
+                    industry.
+                </p>
+            </div>
+            <div class="col-md-4 sArticle">
+                <h5>
+                    Get paid quickly
+                </h5>
+                <p>
+                    Once a guest checks in, we can send your money by Paypal, direct deposit, or other available
+                    methods.
+                </p>
+                <a href="#">Learn how to make money on Airbnb</a>
+            </div>
+        </div>
+    </div>
+    <div class="container tArticleContainer d-lg-flex">
+        <div class="col-md-6">
+            <img src="imgs/4.jpg">
+        </div>
+        <div class="col-md-5">
+            <div aria-hidden="true" class="comma">“</div>
+            <h2>
+                The Host Guarantee helped me decide to join Airbnb because I have it to fall back on if there's
+                damage or
+                problems.
+            </h2>
+            <p>
+                Dennis hosts in London for the flexibility it provides
+
+            </p>
+            <a href="">Learn how they host</a>
+        </div>
+    </div>
+    <div class="container host">
+        <hr>
+        <center>
+            <h1>
+                About Airbnb
+            </h1>
+        </center>
+        <div class="sArticleContainer d-lg-flex">
+            <div class="col-md-6 sArticle">
+                <h4>
+                    What is Airbnb?
+                </h4>
+                <p>
+                    Airbnb connects people with places to stay and things to do around the world. The community is
+                    powered by hosts, who
+                    provide their guests with the unique opportunity to travel like a local.
+                </p>
+            </div>
+            <div class="col-md-6 sArticle">
+                <h4>
+                    What is hosting?
+                </h4>
+                <p>
+                    If you have an extra room, entire home, or expertise, you can earn money by sharing it with
+                    anyone in the world. You can
+                    host your home, activity, or do both. When you host is up to you.
+                </p>
+                <a href="#">Learn more about experience hosting</a>
+            </div>
+        </div>
+    </div>
+    <div class="container host">
+        <hr>
+        <center>
+            <h1>
+                Frequently asked questions
+            </h1>
+        </center>
+        <div class="sArticleContainer d-lg-flex">
+            <div class="col-md-6 sArticle">
+                <a class="articleAnchor" href="#">Who can be an Airbnb host?</a>
+                <a class="articleAnchor" href="#">What is required of guests before booking?</a>
+                <a href="#">How much does it cost to list my space?</a>
+            </div>
+            <div class="col-md-6 sArticle">
+                <a class="articleAnchor" href="#">What protection do I have against property damage?</a>
+                <a class="articleAnchor" href="#">How should I choose my listing’s price?</a>
+                <a href="#">How can Airbnb help me with setting prices?</a>
+            </div>
+        </div>
+    </div>
+    <div class="container host">
+        <h4>
+            <b>More about hosting</b>
+        </h4>
+        <div class="sArticleContainer d-lg-flex cards">
+            <div class="card">
+                <img class="card-img-top" src="imgs/5.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Setup</h5>
+                    <p class="card-text">
+                        How to start hosting
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="imgs/6.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Safety</h5>
+                    <p class="card-text">
+                        How Airbnb protects hosts
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="imgs/7.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Financials</h5>
+                    <p class="card-text">
+                        How you make money on Airbnb
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 ready">
+        <img src="imgs/8.jpg">
+        <div class="readyText">
+            <h1>
+                Ready to earn?
+            </h1>
+            <input value="Get started">
+        </div>
+    </div>
+    <footer class="col-12">
+        © 2021 Airbnb, Inc. All rights reserved
+    </footer>
+</body>
+
+</html>

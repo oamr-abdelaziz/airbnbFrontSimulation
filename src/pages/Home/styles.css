@@ -1,0 +1,41 @@
+.sec1 {
+  /* background-image:url(process.env.PUBLIC_URL/assets/imgs/download.png); */
+  /* background-image:url("./assets/imgs/download.png"); */
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  position: relative;
+  height: 85%;
+
+   /* height: auto; */
+}
+
+.sec1 div{
+  /* font-size: 2rem; */
+  position: absolute;
+  top: 34%;
+  /* left: 6%; */
+}
+
+.sec1 h1 {
+  font-size: 7rem;
+}
+  
+  
+.near {
+    margin-top: -2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+  
+  .col-3 div {
+    font-size: 14px;
+  }
+  
+  
+  .sec4,.sec4 .card {
+    background-color: black;
+  
+  }
+  

@@ -1,0 +1,44 @@
+
+
+.info {
+    padding-left: 170px;
+    padding-top: 100px;
+    padding-right: 100px;
+    color: rgb(72, 72, 72);
+}
+
+.info h1 {
+    font-size: 145px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.info h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.info h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(118, 118, 118);
+    margin-bottom: 15px;
+}
+.info h4 {
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    color: rgb(72, 72, 72);
+}
+
+.imgContainer {
+    padding-top: 50px;
+    padding-left: 50px;
+}

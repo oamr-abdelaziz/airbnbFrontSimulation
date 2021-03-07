@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+/* 
+header {
+    height: 9%;
+    background-color: black;
+} */
+
+/* header {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+} */
+.sec1 {
+    background-image: url(./imgs/download.png);
+    background-size: cover;
+    background-position: 50% 50%;
+
+    height: 85%;
+}
+
+
+.sec1 {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    position: relative;
+}
+
+.sec1 div {
+    position: absolute;
+    top: 34%;
+    left: 6%;
+}
+
+.sec1 h1 {
+    font-size: 7rem;
+}
+
+.near {
+    margin-top: -2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+
+
+nav{
+    height: 13%;
+}
+nav form{
+       position: relative !important;
+
+}
+
+nav form div{
+    background-color:#ff385c ;
+    position: absolute;
+    right: 0em;
+    width: 2em;
+    height: 2em;
+    align-items: center;
+    
+}
+
+nav ul{
+ 
+    align-items: center;
+
+}
+
+#account{
+    align-items: center;
+
+    width: 4em;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 30px 30px;
+}
+
+.col-3 div{
+font-size:14px;
+}
+
+
+.sec4 ,.sec4 .card{
+    background-color: black;
+    
+}
+
+

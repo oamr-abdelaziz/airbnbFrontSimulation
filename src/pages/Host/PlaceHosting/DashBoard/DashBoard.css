@@ -1,0 +1,21 @@
+.dashboardBody{
+    background-image: url("../../imgs/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboardBody{
+    padding: 35px;
+}
+
+.tablebody{
+    width: 90%;
+    margin: 25px auto;
+    background-color: white;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 7px;
+}
+
+.linkBtn{
+    color: white !important;
+}

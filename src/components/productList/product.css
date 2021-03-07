@@ -1,0 +1,34 @@
+.no-gutters{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cart{
+    border-top: 1px solid rgb(235, 235, 235);
+    margin-left: 20px;
+}
+
+p{
+    color: rgb(113, 113, 113);
+    font-size :13px; 
+    letter-spacing:1px ;
+    font-weight: 300;
+}
+
+.title{
+    margin-left: 20px;
+}
+
+.p2{
+    color:  #504a4a;
+    line-height: 8px;
+    max-height: 8px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.titleMain{
+
+    margin-top: 0px;
+    padding: 0;
+}

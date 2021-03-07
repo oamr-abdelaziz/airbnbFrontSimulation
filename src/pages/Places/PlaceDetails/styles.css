@@ -1,0 +1,363 @@
+
+hr {
+  background-color: rgb(224, 224, 224);
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid rgb(34, 34, 34);
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 0;
+  text-decoration: none;
+  background: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.button:hover {
+  background: rgb(241, 241, 241);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+/* Title, subtitle and host image */
+.main {
+  padding-left: 0;
+  margin-top: 50px;
+  color: rgb(34, 34, 34);
+}
+.placeInfo {
+  max-width: 60%;
+  margin-left: 0;
+  color: rgb(34, 34, 34);
+}
+.placeInfo h2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+}
+.summarySpan {
+  font-size: 16px;
+  font-weight: 100;
+}
+.hostImg {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* popular amenities */
+.placeFeature {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.placeFeature h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: rgb(34, 34, 34);
+}
+.placeFeature .FeatureSubtitle {
+  color: rgb(113, 113, 113);
+  font-size: 14px;
+  font-weight: 300;
+}
+.placeFeature .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* description */
+.description {
+  
+  font-size: 16px;
+  font-weight: 300;
+  padding: 25px 0;
+}
+
+/* amenities */
+.notIncluded {
+  text-decoration: line-through;
+}
+.amenities {
+  padding: 30px 0;
+}
+.amenities h3 {
+  
+  font-size: 22px;
+  font-weight: 500;
+}
+.amenities .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.amenities span {
+
+  font-size: 16px;
+  font-weight: 300;
+}
+.amenityItem {
+  margin: 15px 0;
+}
+.amenities .button {
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* calendar */
+.calendarRange {
+  font-weight: 300;
+  width: 600px;
+}
+/* :not(.DayPicker-Day--start):not(.DayPicker-Day--end) */
+.calendarRange
+  .DayPicker-Day--selected:not(.DayPicker-Day--outside) {
+  background-color: rgb(41, 41, 41);
+  color: rgb(255, 255, 255);
+}
+.calendarRange
+  .DayPicker-Day--selected:not(.DayPicker-Day--outside):hover {
+    background-color: rgb(41, 41, 41);
+  }
+.calendarRange .DayPicker-Day {
+  padding: 10px;
+  color: rgb(34, 34, 34);
+}
+.calendarRange .DayPicker-Day--disabled {
+  text-decoration: line-through;
+  color: rgb(176, 176, 176);
+}
+.calendarRange .DayPicker-Month {
+  margin: 25px 0;
+  margin-right: 20px;
+}
+.calendarRange .DayPicker-Caption {
+  font-size: 15px;
+  text-align: center;
+}
+
+.calendarRange .DayPicker-Weekday {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.calendarRange .DayPicker-Week {
+  padding: 10px;
+}
+
+/* /////////////////////// */
+.reservationCard {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px 0px;
+  position: sticky;
+  top: 150px;
+  color: rgb(34, 34, 34);
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 24px;
+  max-width: 373px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+}
+.reservationCard .price {
+  font-size: 22px;
+  font-weight: 500;
+}
+.reservationCard .priceNight {
+  font-size: 16px;
+  font-weight: 300;
+}
+.reservationCard .rating {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.reservationCard .number {
+  color: rgb(113, 113, 113);
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.reservationCard .icon {
+  color: rgb(255, 56, 92);
+  width: 14px;
+}
+.reservationCard .resCardControls {
+  color: rgb(34, 34, 34);
+  margin: 20px 0;
+  height: fit-content;
+}
+
+.resCardControls .calendarModal .button {
+  background: none;
+  border: 1px solid rgb(165, 164, 164);
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: rgb(34, 34, 34);
+  min-width: 100%;
+  padding: 10px;
+}
+.resCardControls .calendarModal .button:hover {
+  background: none;
+  border: 1px solid rgb(165, 164, 164);
+  border-bottom: none;
+  color: rgb(34, 34, 34);
+}
+.resCardControls .calendarModal .button:active {
+  transform: none;
+  border: 2px solid rgb(34, 34, 34);
+}
+.calendarModalStyle .calendarRange {
+  margin: auto;
+}
+
+.calendarModalBtn span {
+    font-size: 15px;
+}
+.calendarModalBtn .fontIcon {
+    color: rgb(63, 62, 62);
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/* guests dropdown */
+.resCardControls .guestsCounterDrop .button {
+  background: none;
+  border: 1px solid rgb(165, 164, 164);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  color: rgb(34, 34, 34);
+  min-width: 100%;
+  padding: 10px 5px;
+}
+.resCardControls .guestsCounterDrop .button:hover {
+  background: none;
+  border: 1px solid rgb(165, 164, 164);
+  color: rgb(34, 34, 34);
+}
+.resCardControls .guestsCounterDrop .button:active {
+  transform: none;
+  border: 2px solid rgb(34, 34, 34);
+}
+.guestBtnVal {
+    padding: 0 10px;
+}
+.guestBtnVal h3 {
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 0;
+}
+.guestBtnVal span {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.guestBtnVal .fontIcon {
+    color: rgb(63, 62, 62);
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.dropDownBody {
+  width: 100%;
+  padding: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px 0px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+}
+.resCardControls .guestsCounterBtn {
+  padding: 3px 9px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(113, 113, 113);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(113, 113, 113);
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.resCardControls .guestsCounterBtn:hover:enabled {
+    color: rgb(34, 34, 34);
+    border-color: rgb(34, 34, 34);
+}
+.resCardControls .guestsCounterBtn:active {
+  transform: none;
+  outline: none;
+  background-color: none;
+}
+
+.resCardControls .guestsCounterBtn:disabled {
+  cursor: not-allowed;
+}
+.resCardControls .guestsNumHolder {
+    font-size: 16px;
+    font-weight: 300;
+}
+.resCardControls .guestsCounterSubtitle {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.reservationCard .button {
+  background-color: rgb(230, 30, 77);
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 56, 92, 1) 0%,
+    rgb(206, 38, 69) 100%
+  );
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  /* min-width: 200px; */
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.reservationCard .button:hover {
+  background: rgba(255, 56, 92, 1);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.reservationCard .receiptSection h3 {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.reservationCard .receiptItem {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 8px 5px;
+}
+
+.reservationCard .receiptTotal {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.reviews {
+  padding-left: 0;
+  margin-top: 50px;
+  color: rgb(34, 34, 34);
+  height: 800px;
+}
